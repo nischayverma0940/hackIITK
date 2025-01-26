@@ -98,3 +98,37 @@ The output provides extracted IoCs, TTPs, Threat Actors, and more.
 - Ensure Python 3.8+ is installed on your system.
 - Avoid sharing your VirusTotal API key publicly.
 - The tool uses publicly available open-source libraries, as referenced in the installation section.
+
+## OUTPUT
+
+```
+    "IoCs": {
+        "IP addresses": [
+            "192.168.1.1"
+        ],
+        "Domains": [
+            "example.com"
+        ]
+    },
+    "TTPs": {
+        "Tactics": [
+            [
+                "TA0002",
+                "Execution"
+            ],
+            [
+                "TA0001",
+                "Initial Access"
+            ],
+            [
+                "TA0008",
+                "Lateral Movement"
+            ]
+        ],
+        "Techniques": [
+...
+    "Targeted Entities": [
+        "Iran"
+    ]
+}
+```
