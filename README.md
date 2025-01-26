@@ -61,26 +61,33 @@ cd project
 
 Run the following command to install all required libraries:
 
+```bash
 pip install -r requirements.txt
+```
 
 ### 3. Set Up VirusTotal API Key
 
 Create a `.env` file in the project directory and add your VirusTotal API key:
 
+```plaintext
 VIRUS_TOTAL_API_KEY=your_api_key
+```
 
 ### 4. Run the Tool
 
 Run the script to analyze a sample report:
 
+```bash
 python main.py
+```
 
 ## Input Report Example
 
 The script processes a cybersecurity report like this:
 
-Plaintext
+```plaintext
 The APT33 group, suspected to be from Iran, has launched a new campaign targeting the energy sector. The attack utilizes Shamoon malware, known for its destructive capabilities. The threat actor exploited a vulnerability in the network perimeter to gain initial access.
+```
 
 The output provides extracted IoCs, TTPs, Threat Actors, and more.
 
