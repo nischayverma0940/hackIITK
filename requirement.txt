@@ -1,4 +1,4 @@
-pytorch
 transformers
-dotenv
-
+torch
+requests
+python-dotenv
